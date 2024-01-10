@@ -1,6 +1,7 @@
 const form = document.querySelector('#form');
 const dairyNote = document.querySelector('#dairyNote');
 const container = document.querySelector('.container');
+const box = document.querySelector('.box');
 let dairyNotes = [];
 if(localStorage.dairyNotes){
     dairyNotes = JSON.parse(localStorage.dairyNotes)

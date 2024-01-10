@@ -1,0 +1,81 @@
+body {
+    background-color: gray;
+}
+#mySpan {
+    text-align: center;
+}
+
+.box {
+    position: absolute;
+    /* top: 66%; */
+    /* left: 50%; */
+    transform: translate(-50%, -50%);
+    color: black;
+    width: 250px;
+    height: 150px;
+    border-radius: 7px;
+    border: 2px solid black;
+    background-color: bisque;
+}
+.saveBtn {
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+#dairyNote {
+    border-radius: 10px;
+    margin-left: 98px;
+    border: 4px solid black;
+    color: white;
+    background-color: transparent;
+    width: 300px;
+    transition: box-shadow 0.3s ease;
+}
+#dairyNote:hover {
+    box-shadow: 0 0 30px black;
+}
+#navbar {
+    background-color: #333;
+    /* height: 50px; */
+    border-radius: 15px;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    padding: 10px;
+
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+
+}
+
+#navbar li {
+    margin: 0 10px;
+    font-size: x-large;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: font-size 0.3s ease;
+}
+
+#navbar a:hover {
+    font-size: 43px;
+
+}
+.alan {
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+    background-color: aqua;
+    border: 3px solid #000;
+    margin-top: 50px;
+    margin-left: 33%;
+}
